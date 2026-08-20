@@ -37,4 +37,5 @@ TypeScript · JavaScript · Playwright · Postman · SQL  · Git · GitHub Actio
 
 📧 mainagathigia0725@gmail.com
 🌐 [entry.esthermaina.com](https://entry.esthermaina.com)
+💼 [LinkedIn](https://www.linkedin.com/in/esther-maina-808478424)
 
