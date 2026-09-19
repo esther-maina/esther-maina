@@ -30,7 +30,7 @@ and the Anthropic API. Live at entry.esthermaina.com.
 
 ## QA Roadmap — August 2026
 
-MONTH 1: Test craft (the part everyone skips and then gets exposed on)
+## MONTH 1: Test craft (the part everyone skips and then gets exposed on)
 Automation without test design is just automating bad tests. This month is short but non-negotiable.
 Learn
 ● SDLC and STLC, where QA sits, Agile ceremonies, definition of done, what a sprint actually feels like.
@@ -43,7 +43,7 @@ pairwise/combinatorial testing, error guessing.
 ● Risk-based testing: how to decide what NOT to test.
 ● Browser DevTools deeply: network tab, console, application/storage, throttling, device emulation. Half of "is this a frontend or backend
 bug" is answered here.
-Tools
+## Tools
 ● Jira (free tier) for the workflow. Qase or TestRail trial for test case management.
 ● Git and GitHub: commit, branch, PR, review. Non-negotiable from day 1.
 ● Markdown for documentation.
@@ -57,7 +57,8 @@ Gate (she must pass before month 2)
 ● Take one of her test cases and justify why the specific boundary values were chosen.
 ● Given a feature spec cold, produce 10 test cases in 20 minutes without help.
 ● Reproduce one of her own bugs live, from her own report, without improvising steps.
-MONTH 2: Code and APIs (where the money starts)
+
+## MONTH 2: Code and APIs (where the money starts)
 API testing is the highest value-per-hour testing there is. It is faster, more stable, and catches deeper bugs than UI testing. In Kenya
 specifically, most of the interesting bugs live in integrations: payments, M-Pesa callbacks, SMS, third party APIs, reconciliation.
 Learn: just enough JavaScript/TypeScript Variables and types, functions, arrow functions, arrays and objects, destructuring, loops, promises
