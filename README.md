@@ -64,13 +64,13 @@ specifically, most of the interesting bugs live in integrations: payments, M-Pes
 Learn: just enough JavaScript/TypeScript Variables and types, functions, arrow functions, arrays and objects, destructuring, loops, promises
 and async/await, modules, npm and package.json, error handling. That is it. She does not need a full JS bootcamp. She needs to read and
 write code confidently.
-Learn: HTTP and APIs properly
+# Learn: HTTP and APIs properly
 ● Methods, status codes (and what a 401 vs 403 vs 422 actually implies), headers, query params vs path params vs body.
 ● REST semantics, JSON, JSON Schema.
 ● Auth: Basic, API keys, Bearer/JWT (decode one, understand claims and expiry), OAuth2 flows at a conceptual level.
 ● Idempotency, retries, timeouts, rate limits, pagination, webhooks and callbacks.
 ● Why a callback-based payment flow is the single most bug-prone thing in African fintech.
-Tools
+# Tools
 ● Postman: collections, environments, variables, pre-request scripts, test scripts, chaining requests, running collections in Newman from
 the CLI.
 ● Bruno as the open source alternative worth knowing.
@@ -87,11 +87,12 @@ Gate
 ● Given a failing API test, correctly classify it: product bug, test bug, data issue, or environment issue. Explain how she knows.
 ● Explain what happens if the same payment callback is delivered twice, and write the test that catches it.
 ● Write a test for an endpoint she has never seen, using only its docs.
-MONTH 3: UI automation done properly (Playwright)
+
+## MONTH 3: UI automation done properly (Playwright)
 Primary tool: Playwright. Fastest path to professional competence, best debugging story, strongest momentum in the market.
 Also needed: Selenium literacy. A lot of Kenyan enterprise and banking shops still run Selenium with Java or Python. She does not need to
 be an expert, but she must be able to answer Selenium questions in an interview and read an existing suite. Give it one weekend.
-Learn deeply
+# Learn deeply:
 ● Locator strategy: role-based and accessibility-first locators, getByRole, getByLabel, test IDs. Why CSS chains and XPath are
 technical debt.
 ● Auto-waiting and web-first assertions. Why sleep(3000) is the mark of an amateur and what to do instead.
@@ -104,7 +105,7 @@ technical debt.
 ● Visual regression basics.
 ● Mobile: pick one, Appium (industry standard, painful) or Maestro (much easier, growing fast). Maestro is the better use of time for a first
 pass.
-Milestone artifact (portfolio piece 3) An end-to-end suite against a real application with:
+# Milestone artifact (portfolio piece 3) An end-to-end suite against a real application with:
 ● At least 25 tests covering signup, login, a core transaction flow, and edge cases.
 ● Runs in parallel, under 5 minutes, zero flaky tests over 10 consecutive runs.
 ● API-based test data setup.
@@ -114,9 +115,10 @@ Gate
 ● Hand her a deliberately flaky test. She must diagnose the real cause and fix it without adding a sleep or a retry.
 ● Explain why she chose the locators she chose.
 ● Run her suite 10 times in a row live. If it is not 10 for 10, she is not through the gate.
-MONTH 4: The engineering layer (this is the junior-to-mid jump)
+
+## MONTH 4: The engineering layer (this is the junior-to-mid jump)
 This is the month that separates "tester who can write scripts" from "quality engineer". It is where the salary bump lives.
-CI/CD with GitHub Actions
+# CI/CD with GitHub Actions
 ● Run the suite on every PR, on merge, and on a nightly schedule.
 ● Matrix runs across browsers, sharding for parallelism.
 ● Uploading artifacts: traces, videos, HTML reports.
@@ -124,7 +126,7 @@ CI/CD with GitHub Actions
 ● Secrets and environment configuration.
 ● Failing the build correctly, and quarantine strategy for known-flaky tests.
 ● Awareness of GitLab CI and Jenkins, since plenty of Kenyan enterprises run Jenkins.
-Environments and infra
+# Environments and infra
 ● Docker basics: run the app and a database in containers so tests have a clean environment.
 ● Awareness of Testcontainers.
 ● Test environments, config management, seeding, why "it works on staging" is a real problem.
@@ -143,7 +145,7 @@ Burp Suite Community. Security-aware test coverage is one of the weakest areas a
 differentiation.
 ● Accessibility: axe-core, WCAG basics, keyboard navigation, screen reader smoke checks. Quietly a hiring differentiator, especially for
 international and remote roles.
-Milestone artifact (portfolio piece 4)
+# Milestone artifact (portfolio piece 4)
 ● The month 3 suite running in a full GitHub Actions pipeline, with published reports, tagged runs and artifacts on failure.
 ● A k6 load test with defined thresholds plus a written performance report with a recommendation.
 ● A security test pass against a deliberately vulnerable app (OWASP Juice Shop) with a written findings report.
@@ -152,7 +154,8 @@ Gate
 ● Ask: "we have 4 hours of manual regression before each release. Give me a plan to get it to 20 minutes." She should answer with a
 strategy, not a tool list.
 ● Have her defend one thing she chose NOT to automate.
-MONTH 5: AI (the differentiator)
+
+## MONTH 5: AI (the differentiator)
 This is what makes a 6-month candidate beat a 3-year candidate in 2026. Two tracks, and she needs both.
 Track A: Using AI to do QA faster
 ● Using Claude Code, Copilot or Cursor to scaffold tests from a spec or a ticket.
