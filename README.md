@@ -2,7 +2,7 @@
 
 **QA Automation Engineer in Training** · Nairobi, Kenya
 
-Software Engineering diploma graduate building a specialization in QA automation.
+Software Engineering diploma graduate building a specialisation in QA automation.
 Currently progressing through a structured 6-month roadmap covering manual testing
 foundations, API testing, Playwright automation, and CI/CD pipeline integration.
 
@@ -10,11 +10,12 @@ foundations, API testing, Playwright automation, and CI/CD pipeline integration.
 
 ## Featured Project
 
-**[CareerMate](https://entry.esthermaina.com)**
-AI-powered resume analysis and interview practice tool. Built with TypeScript
-and the Anthropic API. Live at entry.esthermaina.com.
+**[CareerMate](https://entry.esthermaina.com)** — AI-powered resume analysis and 
+interview practice tool. Built with TypeScript and the Anthropic API.
 
 ---
+
+## 🛠️ Tech Stack
 
 ## 🛠️ Tech Stack
 
@@ -26,14 +27,19 @@ and the Anthropic API. Live at entry.esthermaina.com.
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
 ---
 
+## 📁 Current Work
 
+**[month-01-test-craft](https://github.com/esther-maina/month-01-test-craft)** — 
+Month 1 of 6: Manual testing foundations, test design techniques, and Agile workflows 
+with real fintech examples. Every concept committed daily.
 
+---
 
 ## Contact
 
-📧 mainagathigia0725@gmail.com
-🌐 [entry.esthermaina.com](https://entry.esthermaina.com)
-💼 [LinkedIn](https://www.linkedin.com/in/esther-maina-808478424)
-
+📧 mainagathigia0725@gmail.com  
+🌐 entry.esthermaina.com  
+💼 LinkedIn
