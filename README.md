@@ -41,6 +41,6 @@ with real fintech examples. Every concept committed daily.
 ## Contact
 
 📧 mainagathigia0725@gmail.com  
- https://www.linkedin.com/in/esther-wa-maina-808478424/
+ 💼 LinkedIn: https://www.linkedin.com/in/esther-wa-maina-808478424/
 🌐 entry.esthermaina.com  
-💼 LinkedIn
+
